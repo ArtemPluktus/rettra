@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.7acaea2f.css",
-    "main.js": "/react-homework-template/static/js/main.07d3183d.js",
-    "index.html": "/react-homework-template/index.html",
-    "main.7acaea2f.css.map": "/react-homework-template/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/react-homework-template/static/js/main.07d3183d.js.map"
+    "main.css": "/rettra/static/css/main.8509e82b.css",
+    "main.js": "/rettra/static/js/main.2503eeeb.js",
+    "static/media/img3.jpg": "/rettra/static/media/img3.0c66d0d326bbc0f1edb5.jpg",
+    "static/media/img1.jpg": "/rettra/static/media/img1.0ab2358764bdb992c7e1.jpg",
+    "static/media/img2.jpg": "/rettra/static/media/img2.394e8a80f4a978880d27.jpg",
+    "static/media/heroimg.jpg": "/rettra/static/media/heroimg.db073345786b4a49f4a5.jpg",
+    "index.html": "/rettra/index.html",
+    "static/media/close.svg": "/rettra/static/media/close.474e27d61a68a05d46a2e19649c4e99f.svg",
+    "static/media/menu.svg": "/rettra/static/media/menu.60ec0d3f69855e47a29942ff984d2baf.svg",
+    "main.8509e82b.css.map": "/rettra/static/css/main.8509e82b.css.map",
+    "main.2503eeeb.js.map": "/rettra/static/js/main.2503eeeb.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.8509e82b.css",
+    "static/js/main.2503eeeb.js"
   ]
 }
