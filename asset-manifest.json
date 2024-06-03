@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rettra/static/css/main.2024528c.css",
-    "main.js": "/rettra/static/js/main.e349ca20.js",
+    "main.js": "/rettra/static/js/main.0cea614c.js",
     "static/media/img3.jpg": "/rettra/static/media/img3.0c66d0d326bbc0f1edb5.jpg",
     "static/media/img1.jpg": "/rettra/static/media/img1.0ab2358764bdb992c7e1.jpg",
     "static/media/img2.jpg": "/rettra/static/media/img2.394e8a80f4a978880d27.jpg",
@@ -10,10 +10,10 @@
     "static/media/close.svg": "/rettra/static/media/close.474e27d61a68a05d46a2e19649c4e99f.svg",
     "static/media/menu.svg": "/rettra/static/media/menu.60ec0d3f69855e47a29942ff984d2baf.svg",
     "main.2024528c.css.map": "/rettra/static/css/main.2024528c.css.map",
-    "main.e349ca20.js.map": "/rettra/static/js/main.e349ca20.js.map"
+    "main.0cea614c.js.map": "/rettra/static/js/main.0cea614c.js.map"
   },
   "entrypoints": [
     "static/css/main.2024528c.css",
-    "static/js/main.e349ca20.js"
+    "static/js/main.0cea614c.js"
   ]
 }
