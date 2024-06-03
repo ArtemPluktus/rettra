@@ -3,7 +3,7 @@ import css from './Rettra.module.css';
 export function Footer() {
   return (
     <footer id="footer" className={css.footer}>
-      <a href="../App.jsx" class={css.footer__name}>
+      <a href="./rettra" class={css.footer__name}>
         {' '}
         ReTTra International Kft{' '}
       </a>
