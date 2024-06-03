@@ -8,7 +8,7 @@ export function Header() {
 
   return (
     <header className={css.header}>
-      <a href="./rettra" className={css.name}>
+      <a href="./" className={css.name}>
         Rettra
       </a>
       <nav className={`${css.nav} ${isOpen ? css.active : ''}`}>
