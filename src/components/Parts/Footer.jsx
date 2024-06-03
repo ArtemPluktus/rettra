@@ -4,8 +4,7 @@ export function Footer() {
   return (
     <footer id="footer" className={css.footer}>
       <a href="./rettra" class={css.footer__name}>
-        {' '}
-        ReTTra International Kft{' '}
+        ReTTra International Kft
       </a>
       <ul className={css.footer__list}>
         <li className={css.footer__list__item}>
@@ -17,7 +16,6 @@ export function Footer() {
           </a>
         </li>
         <li className={css.footer__list__item}>
-          {' '}
           <a
             href="mailto:RettRa@protonmail.com"
             className={css.footer__list__email}
