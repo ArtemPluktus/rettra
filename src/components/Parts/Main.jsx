@@ -30,7 +30,7 @@ export function Main() {
               the market.
             </p>
           </li>
-          <li className={css.about__list__item}>
+          <li className={css.about__list__item__even}>
             <img src={img2} alt="work" className={css.about__list__img} />
             <p className={css.about__list__text}>
               We provide expert support in processing financial data, automating
