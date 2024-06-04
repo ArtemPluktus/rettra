@@ -19,6 +19,16 @@ export function Header() {
             </a>
           </li>
           <li className={css.nav__list__item}>
+            <a href="#Offer" className={css.nav__list__item}>
+              Offers
+            </a>
+          </li>
+          <li className={css.nav__list__item}>
+            <a href="#Cooperate" className={css.nav__list__item}>
+              Cooperate
+            </a>
+          </li>
+          <li className={css.nav__list__item}>
             <a href="#footer" className={css.nav__list__item}>
               Contact
             </a>
