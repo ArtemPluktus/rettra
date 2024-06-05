@@ -21,7 +21,7 @@
   font-size: 24px;
   font-weight: 500;
   text-decoration: none;
-  color: #00fa9a;
+  color: #30d5c8;
   padding-left: 20px;
 }
 
@@ -43,7 +43,7 @@
   font-size: 20px;
   font-weight: 400;
   text-decoration: none;
-  color: #00fa9a;
+  color: #30d5c8;
 
   @media screen and (min-width: 1200px) {
     font-size: 24px;
@@ -86,7 +86,7 @@
   .nav__list__item {
     margin: 10px 0;
     font-weight: 500;
-    color: #00fa9a;
+    color: #30d5c8;
   }
 
   .menu__btn {
@@ -94,7 +94,7 @@
     background-color: transparent;
     margin-right: 20px;
     border: none;
-    fill: #00fa9a;
+    fill: #30d5c8;
   }
 }
 
@@ -232,29 +232,29 @@
 
 .about__list__item:nth-child(1) {
   background-color: #2f303a;
-  color: #00fa9a;
+  color: #30d5c8;
 }
 
 .about__list__item:nth-child(2) {
-  background-color: #00fa9a;
+  background-color: #30d5c8;
   color: #2f303a;
 }
 
 .about__list__item:nth-child(3) {
   background-color: #2f303a;
-  color: #00fa9a;
+  color: #30d5c8;
   @media screen and (min-width: 900px) {
-    background-color: #00fa9a;
+    background-color: #30d5c8;
     color: #2f303a;
   }
 }
 
 .about__list__item:nth-child(4) {
-  background-color: #00fa9a;
+  background-color: #30d5c8;
   color: #2f303a;
   @media screen and (min-width: 900px) {
     background-color: #2f303a;
-    color: #00fa9a;
+    color: #30d5c8;
   }
 }
 
@@ -313,24 +313,24 @@
 }
 
 .about__link__item:nth-child(1) {
-  background-color: #00fa9a;
+  background-color: #30d5c8;
   border: 1px solid #2f303a;
 }
 
 .about__link__item:nth-child(1):hover,
 .about__link__item:nth-child(1):focus {
   background-color: #2f303a;
-  border: 1px solid #00fa9a;
+  border: 1px solid #30d5c8;
   color: #2f303a;
 
   .about__link__learn {
-    color: #00fa9a;
+    color: #30d5c8;
   }
 }
 
 .about__link__item:nth-child(2):hover,
 .about__link__item:nth-child(2):focus {
-  background-color: #00fa9a;
+  background-color: #30d5c8;
   border: 1px solid #2f303a;
   color: #2f303a;
 
@@ -341,7 +341,7 @@
 
 .about__link__item:nth-child(2) {
   background-color: #2f303a;
-  border: 1px solid #00fa9a;
+  border: 1px solid #30d5c8;
 }
 
 .about__link__learn {
@@ -351,7 +351,7 @@
 
 .about__link__enquire {
   text-decoration: none;
-  color: #00fa9a;
+  color: #30d5c8;
 }
 
 .offer {
@@ -503,13 +503,13 @@
 .cooperate__list__img {
   width: 70px;
   height: 70px;
-  fill: #00fa9a;
+  fill: #30d5c8;
 }
 
 .cooperate__list__img__agricultural {
   width: 50px;
   height: 50px;
-  fill: #00fa9a;
+  fill: #30d5c8;
   margin-top: 15px;
   margin-bottom: 5px;
 }
