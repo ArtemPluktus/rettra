@@ -1,7 +1,4 @@
 import css from './Rettra.module.css';
-import img1 from './img/img1.jpg';
-import img2 from './img/img2.jpg';
-import img3 from './img/img3.jpg';
 
 export function About() {
   return (
@@ -9,39 +6,88 @@ export function About() {
       <h2 className={css.about__title}>About us</h2>
       <ul className={css.about__list}>
         <li className={css.about__list__item}>
-          <img src={img1} alt="work" className={css.about__list__img} />
+          <h2 className={css.about__list__title}>Lorem Ipsum</h2>
           <p className={css.about__list__text}>
-            Our company specializes in providing high-quality business
-            consulting services, helping clients optimize processes and enhance
-            operational efficiency. We offer comprehensive management consulting
-            solutions, developing growth strategies and implementing innovative
-            approaches to achieve business objectives. With our support, you can
-            improve financial performance, increase competitiveness, and ensure
-            sustainable growth for your company in the market.
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
           </p>
-        </li>
-        <li className={css.about__list__item__even}>
-          <img src={img2} alt="work" className={css.about__list__img} />
-          <p className={css.about__list__text}>
-            We provide expert support in processing financial data, automating
-            processes and optimizing financial operations to ensure efficiency
-            and accuracy. Thanks to our experience in the field of financial
-            services, we help clients implement innovative solutions that
-            increase the quality of service and ensure sustainable business
-            development.
-          </p>
+          <ul className={css.about__list__link}>
+            <li className={css.about__link__item}>
+              <a href="/" className={css.about__link__learn}>
+                Learn More
+              </a>
+            </li>
+            <li className={css.about__link__item}>
+              <a href="/" className={css.about__link__enquire}>
+                Enquire Now
+              </a>
+            </li>
+          </ul>
         </li>
         <li className={css.about__list__item}>
-          <img src={img3} alt="work" className={css.about__list__img} />
+          <h2 className={css.about__list__title}>Lorem Ipsum</h2>
           <p className={css.about__list__text}>
-            Our company specializes in conducting in-depth market research to
-            provide clients with valuable insights into trends, consumer
-            preferences and the competitive environment. We use modern methods
-            of public opinion analysis to help organizations understand the
-            needs and expectations of their audience. With our expertise in
-            market research and public opinion, clients receive accurate and
-            relevant data to make informed decisions.
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
           </p>
+          <ul className={css.about__list__link}>
+            <li className={css.about__link__item}>
+              <a href="/" className={css.about__link__learn}>
+                Learn More
+              </a>
+            </li>
+            <li className={css.about__link__item}>
+              <a href="/" className={css.about__link__enquire}>
+                Enquire Now
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li className={css.about__list__item}>
+          <h2 className={css.about__list__title}>Lorem Ipsum</h2>
+          <p className={css.about__list__text}>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+          <ul className={css.about__list__link}>
+            <li className={css.about__link__item}>
+              <a href="/" className={css.about__link__learn}>
+                Learn More
+              </a>
+            </li>
+            <li className={css.about__link__item}>
+              <a href="/" className={css.about__link__enquire}>
+                Enquire Now
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li className={css.about__list__item}>
+          <h2 className={css.about__list__title}>Lorem Ipsum</h2>
+          <p className={css.about__list__text}>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+          <ul className={css.about__list__link}>
+            <li className={css.about__link__item}>
+              <a href="/" className={css.about__link__learn}>
+                Learn More
+              </a>
+            </li>
+            <li className={css.about__link__item}>
+              <a href="/" className={css.about__link__enquire}>
+                Enquire Now
+              </a>
+            </li>
+          </ul>
         </li>
       </ul>
     </section>
