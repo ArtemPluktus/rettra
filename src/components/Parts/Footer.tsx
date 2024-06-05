@@ -1,32 +1,33 @@
-import css from './styles/Footer.module.css';
+import React from 'react';
+import './styles/Footer.module.css';
 
-export function Footer() {
+export const Footer: React.FC = () => {
   return (
-    <footer id="footer" className={css.footer}>
-      <a href="./" className={css.footer__name}>
+    <footer id="footer" className="footer">
+      <a href="./" className="footer__name">
         ReTTra International Kft
       </a>
-      <ul className={css.footer__list}>
-        <li className={css.footer__list__item}>
+      <ul className="footer__list">
+        <li className="footer__list__item">
           <a
             href="https://maps.app.goo.gl/dbR2RkfiZiv1L2gQ8"
-            className={css.footer__list__link}
+            className="footer__list__link"
           >
             1089 Budapest, Korányi Sándor utca 4. 4.
           </a>
         </li>
-        <li className={css.footer__list__item}>
+        <li className="footer__list__item">
           <a
             href="mailto:RettRa@protonmail.com"
-            className={css.footer__list__email}
+            className="footer__list__email"
           >
             RettRa@protonmail.com
           </a>
         </li>
-        <li className={css.footer__list__link}>
+        <li className="footer__list__item">
           <a
             href="mailto:rettrainternationalkft@gmail.com"
-            className={css.footer__list__email}
+            className="footer__list__email"
           >
             rettrainternationalkft@gmail.com
           </a>
@@ -34,4 +35,4 @@ export function Footer() {
       </ul>
     </footer>
   );
-}
+};

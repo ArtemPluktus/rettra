@@ -1,13 +1,10 @@
+import React, { useState } from 'react';
 import css from './styles/Header.module.css';
-import { useState } from 'react';
 import { ReactComponent as Menu } from './img/menu.svg';
 import { ReactComponent as Close } from './img/close.svg';
-
-export function Header() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  return (
-    <header className={css.header}>
+export const Header = () => {
+    const [isOpen, setIsOpen] = useState(false);
+    return (<header className={css.header}>
       <a href="./" className={css.name}>
         Rettra
       </a>
@@ -35,15 +32,10 @@ export function Header() {
           </li>
         </ul>
       </nav>
-      {isOpen ? (
-        <button className={css.menu__btn} onClick={() => setIsOpen(!isOpen)}>
+      {isOpen ? (<button className={css.menu__btn} onClick={() => setIsOpen(!isOpen)}>
           <Close />
-        </button>
-      ) : (
-        <button className={css.menu__btn} onClick={() => setIsOpen(!isOpen)}>
+        </button>) : (<button className={css.menu__btn} onClick={() => setIsOpen(!isOpen)}>
           <Menu />
-        </button>
-      )}
-    </header>
-  );
-}
+        </button>)}
+    </header>);
+};
