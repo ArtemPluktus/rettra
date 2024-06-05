@@ -1,9 +1,9 @@
-import css from './Rettra.module.css';
+import css from './styles/Footer.module.css';
 
 export function Footer() {
   return (
     <footer id="footer" className={css.footer}>
-      <a href="./" class={css.footer__name}>
+      <a href="./" className={css.footer__name}>
         ReTTra International Kft
       </a>
       <ul className={css.footer__list}>

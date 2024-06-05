@@ -1,4 +1,4 @@
-import css from './Rettra.module.css';
+import css from './styles/Header.module.css';
 import { useState } from 'react';
 import { ReactComponent as Menu } from './img/menu.svg';
 import { ReactComponent as Close } from './img/close.svg';

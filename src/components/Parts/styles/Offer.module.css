@@ -1,0 +1,92 @@
+.offer {
+  margin-bottom: 130px;
+  width: 100%;
+  margin-left: -40px;
+}
+
+.offer__title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  margin-left: 70px;
+  margin-bottom: 50px;
+
+  @media screen and (min-width: 700px) {
+    font-size: 36px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 40px;
+  }
+}
+
+.offer__list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.offer__list__item {
+  width: 100%;
+  background: linear-gradient(rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)),
+    url(../img/offer1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 470px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 700px) {
+    width: 50%;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 20%;
+  }
+}
+
+.offer__list__item:nth-child(2) {
+  background: linear-gradient(rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)),
+    url(../img/offer2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.offer__list__item:nth-child(3) {
+  background: linear-gradient(rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)),
+    url(../img/offer3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.offer__list__item:nth-child(4) {
+  background: linear-gradient(rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)),
+    url(../img/offer4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.offer__list__item:nth-child(5) {
+  background: linear-gradient(rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)),
+    url(../img/offer5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.offer__list__text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}

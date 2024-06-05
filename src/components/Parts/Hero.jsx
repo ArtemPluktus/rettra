@@ -1,4 +1,4 @@
-import css from './Rettra.module.css';
+import css from './styles/Hero.module.css';
 
 export function Hero() {
   return (

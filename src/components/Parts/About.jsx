@@ -1,4 +1,4 @@
-import css from './Rettra.module.css';
+import css from './styles/About.module.css';
 
 export function About() {
   return (

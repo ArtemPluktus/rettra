@@ -1,4 +1,4 @@
-import css from './Rettra.module.css';
+import css from './styles/Offer.module.css';
 
 export function Offer() {
   return (

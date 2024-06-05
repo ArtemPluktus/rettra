@@ -1,4 +1,4 @@
-import css from './Rettra.module.css';
+import css from './styles/Cooperate.module.css';
 import { ReactComponent as IT } from './img/it.svg';
 import { ReactComponent as Trade } from './img/trade.svg';
 import { ReactComponent as Agricultural } from './img/agricultural.svg';
