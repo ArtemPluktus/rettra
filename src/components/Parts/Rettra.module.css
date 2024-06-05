@@ -241,13 +241,21 @@
 }
 
 .about__list__item:nth-child(3) {
-  background-color: #00fa9a;
-  color: #2f303a;
+  background-color: #2f303a;
+  color: #00fa9a;
+  @media screen and (min-width: 900px) {
+    background-color: #00fa9a;
+    color: #2f303a;
+  }
 }
 
 .about__list__item:nth-child(4) {
-  background-color: #2f303a;
-  color: #00fa9a;
+  background-color: #00fa9a;
+  color: #2f303a;
+  @media screen and (min-width: 900px) {
+    background-color: #2f303a;
+    color: #00fa9a;
+  }
 }
 
 .about__list__title {
