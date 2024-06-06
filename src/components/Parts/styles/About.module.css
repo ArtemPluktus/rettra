@@ -81,6 +81,16 @@
   }
 }
 
+.about__list__item:nth-child(5) {
+  background-color: #2f303a;
+  color: #30d5c8;
+}
+
+.about__list__item:nth-child(6) {
+  background-color: #30d5c8;
+  color: #2f303a;
+}
+
 .about__list__title {
   position: relative;
   font-family: 'Roboto', sans-serif;

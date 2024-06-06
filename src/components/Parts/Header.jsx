@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import css from './styles/Header.module.css';
+import { ReactComponent as Logo } from './img/logo.svg';
 import { ReactComponent as Menu } from './img/menu.svg';
 import { ReactComponent as Close } from './img/close.svg';
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header className={css.header}>
-      <a href="./" className={css.name}>
-        Rettra
+      <a href="./" className={css.header__link}>
+        <Logo className={css.header__logo}></Logo>
+        <span className={css.header__name}>Rettra</span>
       </a>
       <nav className={`${css.nav} ${isOpen ? css.active : ''}`}>
         <ul className={css.nav__list}>

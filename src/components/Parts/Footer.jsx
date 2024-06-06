@@ -6,6 +6,10 @@ export function Footer() {
       <a href="./" className={css.footer__name}>
         ReTTra International Kft
       </a>
+      <p className={css.footer__text}>
+        We are always ready for cooperation and new challenges. Contact us for
+        more information.
+      </p>
       <ul className={css.footer__list}>
         <li className={css.footer__list__item}>
           <a
@@ -18,17 +22,14 @@ export function Footer() {
         <li className={css.footer__list__item}>
           <a
             href="mailto:RettRa@protonmail.com"
-            className={css.footer__list__email}
+            className={css.footer__list__contact}
           >
             RettRa@protonmail.com
           </a>
         </li>
         <li className={css.footer__list__link}>
-          <a
-            href="mailto:rettrainternationalkft@gmail.com"
-            className={css.footer__list__email}
-          >
-            rettrainternationalkft@gmail.com
+          <a href="tel:+36203439150" className={css.footer__list__contact}>
+            +36203439150
           </a>
         </li>
       </ul>
