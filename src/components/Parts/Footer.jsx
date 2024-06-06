@@ -21,10 +21,10 @@ export function Footer() {
         </li>
         <li className={css.footer__list__item}>
           <a
-            href="mailto:RettRa@protonmail.com"
+            href="mailto:info@rettra.com"
             className={css.footer__list__contact}
           >
-            RettRa@protonmail.com
+            info@rettra.com
           </a>
         </li>
         <li className={css.footer__list__link}>
