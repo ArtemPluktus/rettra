@@ -140,6 +140,11 @@
   border: 1px solid #2f303a;
 }
 
+.about__link__item:nth-child(2) {
+  background-color: #2f303a;
+  border: 1px solid #30d5c8;
+}
+
 .about__link__item:nth-child(1):hover,
 .about__link__item:nth-child(1):focus {
   background-color: #2f303a;
@@ -160,11 +165,6 @@
   .about__link__enquire {
     color: #2f303a;
   }
-}
-
-.about__link__item:nth-child(2) {
-  background-color: #2f303a;
-  border: 1px solid #30d5c8;
 }
 
 .about__link__learn {
