@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c9ddc6a3.css",
-    "main.js": "/static/js/main.168b27a2.js",
+    "main.css": "/static/css/main.8008f6e1.css",
+    "main.js": "/static/js/main.ce7cca12.js",
     "static/media/heroimg.jpg": "/static/media/heroimg.db073345786b4a49f4a5.jpg",
     "static/media/offer5.jpg": "/static/media/offer5.1fa2a534c46abaa345cf.jpg",
     "static/media/offer4.jpg": "/static/media/offer4.5d8121f78d3c6d6675f4.jpg",
@@ -10,6 +10,7 @@
     "static/media/offer2.jpg": "/static/media/offer2.53bfa5235922d5109238.jpg",
     "static/media/services.svg": "/static/media/services.178064d74d4c15b25ab570a9407e87f5.svg",
     "index.html": "/index.html",
+    "static/media/logo.svg": "/static/media/logo.24273d4bc10248431396e89f440acc7d.svg",
     "static/media/forein.svg": "/static/media/forein.4eff39d608ffa42ec84eb90dc298fbc2.svg",
     "static/media/agricultural.svg": "/static/media/agricultural.7a33ad4de015c54203419e6eb8b9ba85.svg",
     "static/media/production.svg": "/static/media/production.32abce7e649cd893a2eb964f5b572f2d.svg",
@@ -19,11 +20,11 @@
     "static/media/it.svg": "/static/media/it.892b736eab320934c56635f23d9a7b98.svg",
     "static/media/menu.svg": "/static/media/menu.60ec0d3f69855e47a29942ff984d2baf.svg",
     "static/media/telecommunication.svg": "/static/media/telecommunication.d8d0ad08821652769ee38c7f67cb1fbe.svg",
-    "main.c9ddc6a3.css.map": "/static/css/main.c9ddc6a3.css.map",
-    "main.168b27a2.js.map": "/static/js/main.168b27a2.js.map"
+    "main.8008f6e1.css.map": "/static/css/main.8008f6e1.css.map",
+    "main.ce7cca12.js.map": "/static/js/main.ce7cca12.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9ddc6a3.css",
-    "static/js/main.168b27a2.js"
+    "static/css/main.8008f6e1.css",
+    "static/js/main.ce7cca12.js"
   ]
 }
