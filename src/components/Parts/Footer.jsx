@@ -24,7 +24,7 @@ export function Footer() {
             href="mailto:info@rettra.com"
             className={css.footer__list__contact}
           >
-            info@rettra.com
+            info@rettrainternational.com
           </a>
         </li>
         <li className={css.footer__list__link}>
